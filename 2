@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>moduleC6_2</title>
+</head>
+ 
+<body>
+  <h1>Экран</h1>
+  <h3>экран имеет размеры</h3>
+  <button onclick="alert(screen.width + 'x' + screen.height );">Узнать
+  </button>
+  <p id="GFG"></p>
+  <script>
+    let elm = document.getElementById("GFG");
+    function GFG_Fun() {
+      let width = window.innerWidth;
+      elm.innerHTML = width + "pixels";
+    } 
+ 
+  </script>
+</body>
+</html>
